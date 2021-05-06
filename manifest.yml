@@ -1,0 +1,14 @@
+modules:
+  jira:projectPage:
+    - key: test-forge-app-project-page
+      function: main
+      title: Hello JIRA UI
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/7394df74-9afd-4858-92be-bd801ab83a07
+  name: test-forge-app
+permissions:
+  scopes:
+    - read:jira-work
